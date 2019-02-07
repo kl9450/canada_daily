@@ -29,5 +29,3 @@ Mongo DB should be used to house newsletter signups and blog info
 - A mock database and API such as a Json-server
 - Jquery
 - EJS
-
-

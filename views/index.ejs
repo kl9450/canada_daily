@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title><%= Canada_daily %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <header class="">
+      <h1><%= Canada_daily %></h1>
+        <p>Welcome to <%= Canada daily the place where you can find all you need to know about lovely, but cold Canada. %></p>
+        let ejs = require('ejs'),
+        people = ['geddy', 'neil', 'alex'],
+        html = ejs.render('<%= people.join(", "); %>', {people: people});
+    </header>
+
+    <div>
+      <div class="blog_heading"><%= posts.title %></div>
+      <div>
+        <p><strong><%= posts.content %></strong></p>
+        <p><strong><%= posts.author %></strong></p>
+        <p><strong><%= posts.image %></strong></p>
+      </div>  
+    </div>  
   </body>
 </html>
