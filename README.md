@@ -1,5 +1,5 @@
 # canada_daily
-A daily report on information about Canada and its cities
+Blogs concerning all you need to know about Canada and more
 
 ---
 
